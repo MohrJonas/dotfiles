@@ -121,3 +121,4 @@
 ;; Set keybind for quick buffer switching
 (global-set-key (kbd "C-<tab>") 'helm-buffers-list)
 (global-set-key (kbd "C-<iso-lefttab>") 'helm-projectile-recentf)
+(setq helm-boring-buffer-regexp-list (list (rx "*")))

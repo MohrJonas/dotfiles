@@ -5,4 +5,4 @@ unstow:
 restow:
 	stow --verbose --restow --target ~ emacs
 download-freecad-macros:
-	wget -P freecad/.local/share/FreeCAD/Macro "https://github.com/mwganson/pdwrapper/blob/main/pdwrapper.FCMacro"
+	wget -P freecad/.local/share/FreeCAD/Macro "https://raw.githubusercontent.com/mwganson/pdwrapper/main/pdwrapper.FCMacro"

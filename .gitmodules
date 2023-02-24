@@ -1,0 +1,12 @@
+[submodule "freecad/.local/share/FreeCAD/Mod/Defeaturing_WB"]
+	path = freecad/.local/share/FreeCAD/Mod/Defeaturing_WB
+	url = https://github.com/easyw/Defeaturing_WB
+[submodule "freecad/.local/share/FreeCAD/Mod/FreeCAD_FastenersWB"]
+	path = freecad/.local/share/FreeCAD/Mod/FreeCAD_FastenersWB
+	url = https://github.com/shaise/FreeCAD_FastenersWB
+[submodule "freecad/.local/share/FreeCAD/Mod/Manipulator"]
+	path = freecad/.local/share/FreeCAD/Mod/Manipulator
+	url = https://github.com/easyw/Manipulator
+[submodule "freecad/.local/share/FreeCAD/Mod/A2plus"]
+	path = freecad/.local/share/FreeCAD/Mod/A2plus
+	url = https://github.com/kbwbe/A2plus

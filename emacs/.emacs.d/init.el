@@ -67,6 +67,7 @@
 (use-package elcord :ensure t)
 (use-package vterm :ensure t)
 (use-package xclip :ensure t)
+(use-package helm-fuzzy-find :ensure t)
 
 ;; Register major modes
 (setq auto-mode-alist
@@ -126,3 +127,4 @@
 
 ;; Enable xclip
 (xclip-mode)
+(global-set-key (kbd "C-x M-f") 'helm-fuzzy-find)

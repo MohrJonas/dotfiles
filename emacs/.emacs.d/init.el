@@ -66,6 +66,7 @@
 (use-package helm-projectile :ensure t)
 (use-package elcord :ensure t)
 (use-package vterm :ensure t)
+(use-package xclip :ensure t)
 
 ;; Register major modes
 (setq auto-mode-alist
@@ -122,3 +123,6 @@
 (global-set-key (kbd "C-<tab>") 'helm-buffers-list)
 (global-set-key (kbd "C-<iso-lefttab>") 'helm-projectile-recentf)
 (setq helm-boring-buffer-regexp-list (list (rx "*")))
+
+;; Enable xclip
+(xclip-mode)

@@ -97,9 +97,9 @@
 ;; Override open file with helm-find-files
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 
-;; Set keybind for projectile
+;; Set keybind for grep and fuzzy-find
 (global-set-key (kbd "C-x g") 'helm-projectile-grep)
-(global-set-key (kbd "C-x j") 'helm-projectile-recentf)
+(global-set-key (kbd "C-x M-f") 'helm-fuzzy-find)
 
 ;; Set keybind for magit
 (global-set-key (kbd "C-c g") 'magit-status)
@@ -127,4 +127,3 @@
 
 ;; Enable xclip
 (xclip-mode)
-(global-set-key (kbd "C-x M-f") 'helm-fuzzy-find)
